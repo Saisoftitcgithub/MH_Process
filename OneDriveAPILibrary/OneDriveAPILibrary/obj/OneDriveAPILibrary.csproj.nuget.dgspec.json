@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Office\\Soujanya\\VisualStudio\\MH_TAXINVOICE_PROCESS\\OneDriveAPILibrary\\OneDriveAPILibrary\\OneDriveAPILibrary.csproj": {}
+  },
+  "projects": {
+    "C:\\Office\\Soujanya\\VisualStudio\\MH_TAXINVOICE_PROCESS\\OneDriveAPILibrary\\OneDriveAPILibrary\\OneDriveAPILibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Office\\Soujanya\\VisualStudio\\MH_TAXINVOICE_PROCESS\\OneDriveAPILibrary\\OneDriveAPILibrary\\OneDriveAPILibrary.csproj",
+        "projectName": "OneDriveAPILibrary",
+        "projectPath": "C:\\Office\\Soujanya\\VisualStudio\\MH_TAXINVOICE_PROCESS\\OneDriveAPILibrary\\OneDriveAPILibrary\\OneDriveAPILibrary.csproj",
+        "packagesPath": "C:\\Users\\souja\\.nuget\\packages\\",
+        "outputPath": "C:\\Office\\Soujanya\\VisualStudio\\MH_TAXINVOICE_PROCESS\\OneDriveAPILibrary\\OneDriveAPILibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\souja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[4.48.0, )"
+            },
+            "Microsoft.Identity.Web.Certificate": {
+              "target": "Package",
+              "version": "[1.25.8, )"
+            },
+            "Microsoft.Identity.Web.TokenCache": {
+              "target": "Package",
+              "version": "[1.25.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
